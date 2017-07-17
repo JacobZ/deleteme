@@ -38,13 +38,9 @@
     <contributor />
   </contributors>
   <issueManagement />
-  <!--
   <scm>
-    <connection />
-    <developerConnection />
-    <url />
+    <developerConnection>scm:git:https://github.com/JacobZ/deleteme.git<developerConnection/>
   </scm>
-  -->
   <ciManagement />
   <distributionManagement>
     <repository>
