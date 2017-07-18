@@ -1,0 +1,10 @@
+/bootstrap/configuration/target/
+/bootstrap/content/target/
+/bootstrap/webfiles/target/
+/cms/target/
+/essentials/target/
+/site/target/
+/target/
+/storage
+.idea
+*.iml
