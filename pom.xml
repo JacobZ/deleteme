@@ -12,7 +12,7 @@
     <description>GoGreen</description>
     <groupId>org.example</groupId>
     <artifactId>gogreen</artifactId>
-    <version>0.1.6</version>
+    <version>0.1.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <!--
@@ -40,7 +40,7 @@
     <issueManagement />
     <scm>
         <developerConnection>scm:git:https://github.com/JacobZ/deleteme.git</developerConnection>
-        <tag>gogreen-0.1.6</tag>
+        <tag>gogreen-0.1.1</tag>
     </scm>
     <ciManagement />
     <distributionManagement>
