@@ -225,6 +225,10 @@
                         <featureBranchPrefix>feature/</featureBranchPrefix>
                         <releaseBranchPrefix>release/</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                        <pushFeatures>true</pushFeatures>
+                        <pushReleases>true</pushReleases>
+                        <pushHotfixes>true</pushHotfixes>
+                        <noDeploy>true</noDeploy>
                     </flowInitContext>
                 </configuration>
             </plugin>
