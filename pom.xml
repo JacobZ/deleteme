@@ -43,16 +43,16 @@
         <tag>gogreen-0.1.1</tag>
     </scm>
     <ciManagement />
-    <!--<distributionManagement>-->
-        <!--<repository>-->
-            <!--<id>-</id>-->
-            <!--<url>-</url>-->
-        <!--</repository>-->
-        <!--<snapshotRepository>-->
-            <!--<id>-</id>-->
-            <!--<url>-</url>-->
-        <!--</snapshotRepository>-->
-    <!--</distributionManagement>-->
+    <distributionManagement>
+        <repository>
+            <id>-</id>
+            <url>-</url>
+        </repository>
+        <snapshotRepository>
+            <id>-</id>
+            <url>-</url>
+        </snapshotRepository>
+    </distributionManagement>
     <!-- End of emptied/overridden metadata from parent hippo-cms7-release pom. -->
 
     <properties>
