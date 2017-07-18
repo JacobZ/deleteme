@@ -1,6 +1,0 @@
-definitions:
-  config:
-    /hippo:configuration/hippo:frontend/cms/cms-static/myCustomPerspective:
-    jcr:primaryType: frontend:plugin
-    plugin.class: com.example.MyCustomPerspective
-    wicket.id: service.tab
