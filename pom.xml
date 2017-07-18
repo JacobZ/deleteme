@@ -45,12 +45,12 @@
     <ciManagement />
     <distributionManagement>
         <repository>
-            <id>-</id>
-            <url>-</url>
+            <id>-#-</id>
+            <url>-#-</url>
         </repository>
         <snapshotRepository>
-            <id>-</id>
-            <url>-</url>
+            <id>-#-</id>
+            <url>-#-</url>
         </snapshotRepository>
     </distributionManagement>
     <!-- End of emptied/overridden metadata from parent hippo-cms7-release pom. -->
@@ -212,6 +212,20 @@
                             <Implementation-Build>${buildNumber}</Implementation-Build>
                         </manifestEntries>
                     </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>external.atlassian.jgitflow</groupId>
+                <artifactId>jgitflow-maven-plugin</artifactId>
+                <version>1.0-m5.1</version>
+                <configuration>
+                    <flowInitContext>
+                        <masterBranchName>production</masterBranchName>
+                        <developBranchName>master</developBranchName>
+                        <featureBranchPrefix>feature/</featureBranchPrefix>
+                        <releaseBranchPrefix>release/</releaseBranchPrefix>
+                        <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                    </flowInitContext>
                 </configuration>
             </plugin>
         </plugins>
